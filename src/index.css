@@ -7,3 +7,56 @@
   font-family: "dm-sans-medium";
   src: url(./assets/fonts/static/DMSans-Medium.ttf);
 }
+
+/**
+ * Design system - typography
+**/
+.text-preset-1 {
+  font-family: "dm-sans-medium";
+  font-size: 62px;
+  line-height: 93.5%;
+  letter-spacing: -3px;
+}
+
+.text-preset-2 {
+  font-family: "dm-sans-medium";
+  font-size: 40px;
+  line-height: 90%;
+  letter-spacing: -2px;
+}
+
+.text-preset-3 {
+  font-family: "dm-sans-medium";
+  font-size: 32px;
+  line-height: 87.5%;
+  letter-spacing: -2px;
+}
+
+.text-preset-4 {
+  font-family: "dm-sans-regular";
+  font-size: 18px;
+  line-height: 111%;
+  letter-spacing: 0px;
+}
+
+/**
+ * Design system - colours
+**/
+
+:root {
+  --purple-100: #DBD1FC;
+  --purple-500: #7551DC;
+  --yellow-100: #F9EEE2;
+  --yellow-500: #FFCC6A;
+  --white: #FFFFFF;
+  --black: #121212;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
