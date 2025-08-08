@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "dm-sans-regular";
+  src: url(./assets/fonts/static/DMSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "dm-sans-medium";
+  src: url(./assets/fonts/static/DMSans-Medium.ttf);
+}
